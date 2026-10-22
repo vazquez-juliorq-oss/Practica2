@@ -1,0 +1,31 @@
+# Credenciales y archivos de configuración sensible
+.env
+.env.*
+*.pem
+*.key
+aws_credentials
+.aws/
+
+# Entornos virtuales y cachés de Python
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de datos locales y exportaciones temporales
+*.csv
+*.json
+*.parquet
+*.log
+*.sqlite
+*.db
+
+# Configuración de editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
